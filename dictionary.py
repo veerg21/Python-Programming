@@ -8,7 +8,7 @@ def translator(w):
     # print(w)
     w=w.lower()
     if w in data:
-        # print(data[w])
+        # print(data[w]) 
         return data[w]
 
 word=input("Enter the word you want to search in the dictionary: ")

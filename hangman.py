@@ -4,46 +4,7 @@ name=input("Enter your name: ")
 print("Good luck", name+"!")
 words=['abruptly', 'banjo', 'espionage', 'euouae', 'exodus', 'faking', 'fishhook', 'fixable', 'fjord', 'flapjack', 'flopping', 'fluffiness', 'flyby']
 word=random.choice(words)
-# askew
-# avenue
-# awkward
-# axiom
-# azure
-# bagpipes
-# bandwagon
-# banjo
-# bayou
-# beekeeper
-# bikini
-# blitz
-# blizzard
-# boggle
-# bookworm
-# boxcar
-# boxful
-# buckaroo
-# buffalo
-# buffoon
-# buxom
-# buzzard
-# buzzing
-# buzzwords
-# caliph
-# cobweb
-# cockiness
-# croquet
-# crypt
-# curacao
-# cycle
-# daiquiri
-# dirndl
-# disavow
-# dizzying
-# duplex
-# dwarves
-# embezzle
-# equip
-print(word)
+# print(word)
 turns=6
 guesses=''
 while turns>0:
@@ -54,7 +15,7 @@ while turns>0:
         else:
             print("__")
             fail+=1
-            print(fail)
+            # print(fail)
     if fail==0:
         print("Congratulations! You won!")
     guess=input("Guess a character: ")
