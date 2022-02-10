@@ -8,8 +8,13 @@
 #     print("true")
 # else:
 #     print("false")
-message="flyby"
-index=0
-for i in message:
-    print(index, i)
-    index=index+1
+# message="flyby"
+# index=0
+# for i in message:
+#     print(index, i)
+#     index=index+1
+d2={"abc":"cake", "veer":"chips", "somone":"fries", "xyz":{1:"v"}}
+print(d2["xyz"])
+print(d2.items())
+for i, j in d2.items():
+    print(i, "loves to eat", j)

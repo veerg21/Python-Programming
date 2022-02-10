@@ -22,11 +22,14 @@ def spinner():
     forward(100)
     dot(120, "yellow")
     back(100)
+    right(120)
     update()
 def animate():
-    global turn    
+    global turn
+    if turn>0:
+        turn=turn-0.5
     spinner()
-    ontimer(animate, 1000)
+    ontimer(animate, 10)
 def flick():
     global turn
     turn+=10
